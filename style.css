@@ -1,0 +1,82 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+header
+{
+    text-align: center;
+    color: orange;
+}
+
+
+main
+{
+    margin: 3%;
+}
+#left
+{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    background-color: orangered;
+    float: left;
+}
+
+#right
+{
+    width:70%;
+    height: 500px;
+    background-color: peru;
+    position: relative;
+    float: right;
+    overflow: scroll;
+   
+}
+
+
+
+#form
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#the-ul
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#resultform
+{
+    margin-top: 30px;
+}
+
+
+
+ul li.checked{
+    background: red;
+    color: white;
+    text-decoration: line-through;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.close
+{
+    float: right;
+    cursor: pointer;
+    background-color: tomato;
+    width: 20px;
+    text-align: center;
+}
